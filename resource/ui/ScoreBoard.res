@@ -3,7 +3,7 @@
 	"scores"
 	{
 		"ControlName"		"CTFClientScoreBoardDialog"
-		"fieldName"			"scoreinfo"
+		"fieldName"			"scores"
 		"xpos"				"c-320"
 		"xpos_minmode"		"0"
 		"ypos"				"0"
@@ -14,16 +14,17 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"medal_width"		"12"
-		"avatar_width"		"55"
+		"medal_width"		"28"
+		"medal_column_width" "18"
+		"avatar_width"		"28"
 		"spacer"			"2"
-		"name_width"		"85"
+		"name_width"		"118"
 		"nemesis_width"		"15"
 		"class_width"		"15"
-		"score_width"		"20"
-		"ping_width"		"22"
-		"killstreak_width"	"12"
-		"killstreak_image_width" "12"
+		"score_width"		"25"
+		"ping_width"		"20"
+		"killstreak_width"	"18"
+		"killstreak_image_width" "15"
 	}
 	"BlueScoreBG"
 	{
@@ -33,7 +34,7 @@
 		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
-		
+
 		if_mvm
 		{
 			"visible"		"0"
@@ -251,7 +252,7 @@
 		"tall"			"25"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
         if_mvm
         {
             "visible"   "0"
@@ -448,8 +449,8 @@
 		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
-		
-		
+
+
 		if_mvm
 		{
 			"visible"		"0"
@@ -810,7 +811,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		if_mvm
 		{
 			"wide"		"0"
@@ -1338,7 +1339,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			
+
 			"visible_minmode" "0"
 		}
 		"Support2"
@@ -1357,7 +1358,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			
+
 			"visible_minmode" "0"
 		}
 		"DamageLabel"
@@ -1376,7 +1377,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			
+
 			"xpos_minmode"	"-50"
 			"ypos_minmode"	"460"
 		}
@@ -1396,11 +1397,11 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			
+
 			"xpos_minmode"	"55"
 			"ypos_minmode"	"460"
 		}
-		
+
 		"Kills"
 		{
 			"ControlName"	"CExLabel"
@@ -1498,7 +1499,7 @@
 			"wide"			"0"
 		}
 	}
-	
+
     "MvMScoreboard"
 	{
 		"ControlName"		"CTFHudMannVsMachineScoreboard"
